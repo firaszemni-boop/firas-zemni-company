@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+header {
+  background: linear-gradient(90deg, #005BAC, #00A1D6);
+  color: white;
+  text-align: center;
+  padding: 2em 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+nav {
+  background: #003087;
+  padding: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1em;
+  font-size: 1.1em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.home, .about, .contact {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 0 1em;
+  text-align: center;
+}
+
+.home h2, .about h2, .contact h2 {
+  color: #005BAC;
+}
+
+.home img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1em;
+}
+
+.contact .social-links a {
+  color: #003087;
+  font-size: 2em;
+  margin: 0 0.5em;
+  text-decoration: none;
+}
+
+.contact .social-links a:hover {
+  color: #00A1D6;
+}
+
+footer {
+  background: #003087;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.8em;
+  }
+  nav a {
+    display: block;
+    margin: 0.5em 0;
+  }
+}
